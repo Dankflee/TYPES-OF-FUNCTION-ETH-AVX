@@ -3,11 +3,11 @@ pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
-contract MyToken is ERC20{
+contract mytoken_deploy is ERC20{
     
     string public Name;
     string public Symbol;
-    uint256 public TotalSupply;
+    uint256 public totalsupply;
     mapping(address => uint256) private _balances;
 
     address public owner;
@@ -20,7 +20,7 @@ contract MyToken is ERC20{
     constructor(string memory _name, string memory _symbol, uint256 _initialSupply) ERC20(_name,_symbol) {
         Name = _name;
         Symbol = _symbol;
-        TotalSupply = _initialSupply;
+        totalsupply = _initialSupply;
         owner = msg.sender;
     }
     function mint(address account, uint256 amount) public   {
