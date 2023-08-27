@@ -1,10 +1,10 @@
 # MyToken Smart Contract
 
-This repository contains a simple Ethereum ERC20 token smart contract called `MyToken`. The contract is built using the Solidity programming language and inherits functionalities from the OpenZeppelin `ERC20` contract.
+This repository contains a simple Ethereum ERC20 token smart contract called `mytoken_deploy`. The contract is built using the Solidity programming language and inherits functionalities from the OpenZeppelin `ERC20` contract.
 
 ## Overview
 
-The `MyToken` contract is an implementation of the ERC20 token standard, which allows for the creation of fungible tokens on the Ethereum blockchain. This contract includes basic features such as token minting, burning, and transfers. It also incorporates the OpenZeppelin `ERC20` contract to ensure security and standard compliance.
+The `mytoken_deploy` contract is an implementation of the ERC20 token standard, which allows for the creation of fungible tokens on the Ethereum blockchain. This contract includes basic features such as token minting, burning, and transfers. It also incorporates the OpenZeppelin `ERC20` contract to ensure security and standard compliance.
 
 ## Features
 
@@ -19,5 +19,5 @@ The `MyToken` contract is an implementation of the ERC20 token standard, which a
 1. Clone this repository to your local machine.
 
    ```bash
-   git clone https://github.com/your-username/mytoken-smart-contract.git
-   cd mytoken-smart-contract
+   git clone https://github.com/your-username/mytoken_deploy-smart-contract.git
+   cd mytoken_deploy-smart-contract
